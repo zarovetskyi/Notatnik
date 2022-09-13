@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b31b9ba9-0de5-4b46-bbaf-fe80fee5e369" name="Changes" comment="Preparing to version 2.1">
+    <list default="true" id="b31b9ba9-0de5-4b46-bbaf-fe80fee5e369" name="Changes" comment="Obramowania componentów">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/notatnik/Notatnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/notatnik/Notatnik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/notatnik/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/notatnik/menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/notatnik/menu/MenuEdycja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/notatnik/menu/MenuEdycja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/notatnik/menu/MenuPlik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/notatnik/menu/MenuPlik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/txt/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/txt/hello.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/notatnik/polepanel/PolePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/notatnik/polepanel/PolePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,13 +25,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EiPg9fDMDIccRc2xe6xjgyKOVo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false"
@@ -61,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663075542648</updated>
-      <workItem from="1663075544537" duration="4118000" />
+      <workItem from="1663075544537" duration="8353000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing to version 2">
       <created>1663075665497</created>
@@ -77,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663075861936</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Obramowania componentów">
+      <created>1663081365624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663081365624</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Obramowania componentów">
+      <created>1663081379904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663081379904</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,8 +116,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Preparing to version 2" />
     <MESSAGE value="Preparing to version 2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparing to version 2.1" />
+    <MESSAGE value="Obramowania componentów" />
+    <option name="LAST_COMMIT_MESSAGE" value="Obramowania componentów" />
   </component>
 </project>

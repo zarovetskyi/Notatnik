@@ -1,7 +1,5 @@
 package com.notatnik.polepanel;
 
-import com.notatnik.menu.MenuPlik;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
@@ -37,6 +35,7 @@ public class PolePanel implements ActionListener {
 
         jFrame.add(jPanelPrzyciski, BorderLayout.SOUTH);
 
+        //Panel lewy
         JButton jButtonTytul = new JButton("Tytul");
         JButton jButtonPodpis = new JButton("Podpis");
         jPanelLewy.add(jButtonTytul);
@@ -48,6 +47,51 @@ public class PolePanel implements ActionListener {
         jButtonPodpis.setActionCommand("42");
         jButtonPodpis.addActionListener(this);
 
+        //Panel centralny
+        String[] czKolory = {
+                "czerwona",
+                "zielona",
+                "niebieska",
+                "czarna",
+                "biała"
+        };
+
+        JLabel jLabelKolory = new JLabel("Kolory: ");
+        JComboBox kolorList = new JComboBox(czKolory);
+        kolorList.setSelectedIndex(3);
+
+        jPanelCentralny.add(jLabelKolory);
+        jPanelCentralny.add(kolorList);
+
+        ActionListener klActionListener = e -> {
+            JComboBox komboBox = (JComboBox)(e.getSource());
+            switch (komboBox.getSelectedIndex()) {
+                case 0: {
+                    jTextArea.setForeground(Color.RED);
+                    break;
+                }
+                case 1: {
+                    jTextArea.setForeground(Color.GREEN);
+                    break;
+                }
+                case 2: {
+                    jTextArea.setForeground(Color.BLUE);
+                    break;
+                }
+                case 3: {
+                    jTextArea.setForeground(Color.BLACK);
+                    break;
+                }
+                case 4: {
+                    jTextArea.setForeground(Color.WHITE);
+                    break;
+                }
+            }
+        };
+
+        kolorList.addActionListener(klActionListener);
+
+        //Panel prawy
         JRadioButton jRadioButtonBialy = new JRadioButton("biały", true);
         JRadioButton jRadioButtonZolty = new JRadioButton("zółty");
         JRadioButton jRadioButtonZielony = new JRadioButton("zielony");
