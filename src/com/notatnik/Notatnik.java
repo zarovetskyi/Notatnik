@@ -8,7 +8,7 @@ import java.awt.*;
 
 public class Notatnik extends JFrame {
     public Notatnik() {
-        setTitle("Notatnik");
+        setTitle("Notatnik v2");
         ImageIcon img = new ImageIcon("resources/img/Windows_Notepad_Icon.png");
         setIconImage(img.getImage());
 
