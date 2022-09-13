@@ -18,7 +18,7 @@ public class MenuEdycja {
     }
 
     public void PomniejszenieC() {
-        PolePanel.jTextArea.setFont(new Font("Arial",Font.PLAIN,10));
+        PolePanel.jTextArea.setFont(new Font("Arial",Font.PLAIN,12));
     }
 
     public void Wyczysc() {

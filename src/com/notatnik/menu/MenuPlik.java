@@ -13,7 +13,7 @@ public class MenuPlik {
         if (JFileChooser.APPROVE_OPTION == jFileChooser.showOpenDialog(jFrame)) {
             try {
                 File file = jFileChooser.getSelectedFile();
-                jFrame.setTitle(file.getAbsolutePath() + " Notatnik");
+                jFrame.setTitle(file.getAbsolutePath() + " Notatnik v2");
                 BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
                 String temp = "";
                 while (bufferedReader.ready()) {

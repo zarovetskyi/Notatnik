@@ -17,9 +17,9 @@ public class Menu extends JFrame implements ActionListener {
         JMenu mPlik = new JMenu("Plik");
         jMenuBar.add(mPlik);
 
-        JMenuItem otworz = new JMenuItem("Otworz");
+        JMenuItem otworz = new JMenuItem("Otwórz");
         JMenuItem zapisz = new JMenuItem("Zapisz");
-        JMenuItem zakoncz = new JMenuItem("Zakoncz");
+        JMenuItem zakoncz = new JMenuItem("Zakończ");
 
         mPlik.add(otworz);
         mPlik.add(zapisz);
@@ -44,10 +44,10 @@ public class Menu extends JFrame implements ActionListener {
 
         ButtonGroup buttonGroup = new ButtonGroup();
 
-        JRadioButtonMenuItem powiekszC = new JRadioButtonMenuItem("powiekszC");
-        JRadioButtonMenuItem normalnaC = new JRadioButtonMenuItem("normalnaC");
-        JRadioButtonMenuItem pomniejszC = new JRadioButtonMenuItem("pomniejszC");
-        JMenuItem wyczysc = new JMenuItem("wyczysc");
+        JRadioButtonMenuItem powiekszC = new JRadioButtonMenuItem("Powiększona czcionka");
+        JRadioButtonMenuItem normalnaC = new JRadioButtonMenuItem("Normalna czcionka");
+        JRadioButtonMenuItem pomniejszC = new JRadioButtonMenuItem("Pomniejszona czcionka");
+        JMenuItem wyczysc = new JMenuItem("Wyczyść");
 
         buttonGroup.add(powiekszC);
         buttonGroup.add(normalnaC);

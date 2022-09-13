@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b31b9ba9-0de5-4b46-bbaf-fe80fee5e369" name="Changes" comment="" />
+    <list default="true" id="b31b9ba9-0de5-4b46-bbaf-fe80fee5e369" name="Changes" comment="Preparing to version 2.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/notatnik/Notatnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/notatnik/Notatnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/notatnik/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/notatnik/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/notatnik/menu/MenuEdycja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/notatnik/menu/MenuEdycja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/notatnik/menu/MenuPlik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/notatnik/menu/MenuPlik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/notatnik/polepanel/PolePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/notatnik/polepanel/PolePanel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EiPg9fDMDIccRc2xe6xjgyKOVo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,6 +33,26 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.notatnik.Test" />
+      <module name="Notatnik_v2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.notatnik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,7 +61,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663075542648</updated>
+      <workItem from="1663075544537" duration="4118000" />
     </task>
+    <task id="LOCAL-00001" summary="Preparing to version 2">
+      <created>1663075665497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663075665497</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Preparing to version 2.1">
+      <created>1663075861936</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663075861936</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Preparing to version 2" />
+    <MESSAGE value="Preparing to version 2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparing to version 2.1" />
   </component>
 </project>

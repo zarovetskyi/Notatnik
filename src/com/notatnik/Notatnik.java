@@ -18,7 +18,7 @@ public class Notatnik extends JFrame {
         int wysEkranu = rozmiarEkranu.height;
         setBounds(szerEkranu/4, wysEkranu/4,szerEkranu/2,wysEkranu/2);
 
-        setResizable(false);
+        setResizable(true);
 
         Menu menu = new Menu(this);
         PolePanel polePanel = new PolePanel(this);
