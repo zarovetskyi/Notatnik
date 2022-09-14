@@ -6,6 +6,9 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import static com.notatnik.Notatnik.jFrame;
+import static com.notatnik.polepanel.PolePanel.jTextArea;
+
 public class Menu extends JFrame implements ActionListener {
 
     public Menu(JFrame jFrame) {
@@ -93,13 +96,13 @@ public class Menu extends JFrame implements ActionListener {
             case 1:
             {
                 MenuPlik menuPlik = new MenuPlik();
-                menuPlik.OdczytPliku(this, PolePanel.jTextArea);
+                menuPlik.OdczytPliku(jFrame, jTextArea);
                 break;
             }
             case 2:
             {
                 MenuPlik menuPlik = new MenuPlik();
-                menuPlik.ZapisPliku(this, PolePanel.jTextArea);
+                menuPlik.ZapisPliku(jFrame, jTextArea);
                 break;
             }
             case 3:
@@ -135,7 +138,7 @@ public class Menu extends JFrame implements ActionListener {
             case 21:
             {
                 MenuPomoc menuPomoc = new MenuPomoc();
-                menuPomoc.oAutorze(this);
+                menuPomoc.oAutorze(jFrame);
                 break;
             }
         }
